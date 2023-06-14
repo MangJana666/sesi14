@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan JQuery 01</title>
+</head>
+<body>
+    <h3>Judul</h3>
+    <div id="pesan1">Isi Id pesan 1</div>
+    <div class="pesan1">isi Class pesan1</div>
+
+
+    <h1>test</h1>
+    <span id="pesan2">Test1</span> <br>
+    <span class="pesan2">Pesan 2</span>
+
+    <p>Judul</p>
+    <div id="pesan3">Id</div>
+    <div class="pesan3">Class</div>
+    
+    <input type="text">
+
+    <script src="jquery-3.7.0.min.js"></script>
+    <script>
+        $(function(){
+        $("h3").html("Isi dari Judul Diganti");
+        $("#pesan1").html("Pesan 1 Diubah");
+        $(".pesan1").html("Mengubah Isi dari Class Pesan1");
+        $("h1").html("Yanto");
+        $("#pesan2").html("Pesan 2 Diubah");
+        $(".pesan2").html("Mengubah Isi dari Class Pesan2");
+        $("p").html("Satyo")
+        $("#pesan3").html("Gading")
+        $(".pesan3").html("Sugigi")
+        $("input").html("Masuka")
+        });
+    </script>
+</body>
+</html>
